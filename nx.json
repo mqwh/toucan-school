@@ -1,5 +1,5 @@
 {
-  "npmScope": "toucan-school",
+  "npmScope": "toucan",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",

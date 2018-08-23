@@ -2,11 +2,35 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "",
+  "schematics": {
+    "@schematics/angular:module": {
+      "spec": false
+    },
+    "@schematics/angular:component": {
+      "prefix": "tc",
+      "styleExt": "scss",
+      "changeDetection": "OnPush"
+    },
+    "@schematics/angular:directive": {
+      "prefix": "tc"
+    },
+    "@nrwl/schematics:module": {
+      "spec": false
+    },
+    "@nrwl/schematics:component": {
+      "prefix": "tc",
+      "styleext": "scss",
+      "changeDetection": "OnPush"
+    },
+    "@nrwl/schematics:directive": {
+      "prefix": "tc"
+    }
+  },
   "projects": {},
   "cli": {
     "warnings": {
-      "typescriptMismatch": false,
-      "versionMismatch": false
+      "typescriptMismatch": true,
+      "versionMismatch": true
     },
     "defaultCollection": "@nrwl/schematics",
     "packageManager": "yarn"

@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "stylelint-config-idiomatic-order",
+    "./tools/stylelint/stylelint-config.json",
+    "./node_modules/prettier-stylelint/config.js"
+  ]
+}
