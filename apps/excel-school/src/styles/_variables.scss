@@ -1,0 +1,26 @@
+// Import theming functions
+@import '~@angular/material/theming';
+@import './_typography';
+
+// globle ==========================================
+$flex-full-width: 1 1 auto !default;
+
+// layout ==========================================
+$layout-sidebar-width: 250px !default;
+$layout-wrapper-padding: 12px !default;
+$layout-element-margin: 12px !default;
+
+// views ===========================================
+$tc-spinner-z-index: 8 !default;
+
+$tc-select-column-flex: 0 0 20px !default;
+
+// fields ==========================================
+
+// choice
+$tc-choice-label-padding-right: 16px !default;
+
+$typography-config: mat-typography-config();
+
+$mat-toolbar-height-desktop: 64px !default;
+$mat-toolbar-height-mobile-portrait: 56px !default;

@@ -1,10 +1,10 @@
 {
   "name": "toucan-school",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "sideload": "office-toolbox sideload -m manifest/excel-addins-manifest.xml -a Excel",
-    "validate": "validate-office-addin manifest/excel-addins-manifest.xml",
+    "sideload": "office-toolbox sideload -m manifest/toucan-school-manifest.xml -a Excel",
+    "validate": "validate-office-addin manifest/toucan-school-manifest.xml",
     "post-install": "node ./tools/post-install/fix-office-js-helpers-dts.js",
     "ng": "ng",
     "start": "ng serve",

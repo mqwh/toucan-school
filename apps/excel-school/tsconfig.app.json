@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/apps/excel-school",
+    "types": [
+      "office-js"
+    ]
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "**/*.ts"
+    , "../../libs/feature/agenda/src/index.ts"
+  ],
+  "angularCompilerOptions": {
+    "strictInjectionParameters": true,
+    "fullTemplateTypeCheck": true
+  }
+}

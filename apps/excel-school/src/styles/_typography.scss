@@ -1,0 +1,32 @@
+// 默认 material 字体适合英文类别字母显示, 中文字符需要调整字体及行高
+// @see https://material.io/guidelines/style/typography.html#typography-line-height
+// $font-family: 'Roboto, "Helvetica Neue", sans-serif',
+// $display-4: mat-typography-level(112px, 112px, 300),
+// $display-3: mat-typography-level(56px, 56px, 400),
+// $display-2: mat-typography-level(45px, 48px, 400),
+// $display-1: mat-typography-level(34px, 40px, 400),
+// $headline: mat-typography-level(24px, 32px, 400),
+// $title: mat-typography-level(20px, 32px, 500),
+// $subheading-2: mat-typography-level(16px, 28px, 400),
+// $subheading-1: mat-typography-level(15px, 24px, 400),
+// $body-2: mat-typography-level(14px, 24px, 500),
+// $body-1: mat-typography-level(14px, 20px, 400),
+// $caption: mat-typography-level(12px, 20px, 400),
+// $button: mat-typography-level(14px, 14px, 500),
+// $input: mat-typography-level(16px, 1.125, 400)
+$cn-typography: mat-typography-config(
+  $font-family: '-apple-system-font, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif',
+  $display-4: mat-typography-level(112px, 112px, 300),
+  $display-3: mat-typography-level(56px, 56px, 400),
+  $display-2: mat-typography-level(45px, 63px, 400),
+  $display-1: mat-typography-level(34px, 48px, 400),
+  $headline: mat-typography-level(24px, 34px, 400),
+  $title: mat-typography-level(20px, 34px, 500),
+  $subheading-2: mat-typography-level(17px, 28px, 400),
+  $subheading-1: mat-typography-level(16px, 26px, 400),
+  $body-2: mat-typography-level(14px, 26px, 500),
+  $body-1: mat-typography-level(15px, 22px, 400),
+  $caption: mat-typography-level(14px, 22px, 400),
+  $button: mat-typography-level(15px, 15px, 500),
+  $input: mat-typography-level(16px, 1.125, 400)
+);

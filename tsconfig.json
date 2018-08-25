@@ -21,6 +21,12 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@toucan/feature/agenda": [
+        "libs/feature/agenda/src/index.ts"
+      ],
+      "@toucan/common": [
+        "libs/common/src/index.ts"
+      ]
     }
   },
   "exclude": [

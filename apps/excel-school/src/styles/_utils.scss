@@ -1,0 +1,9 @@
+.tc-truncate {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tc-flex-fill {
+  flex: 1;
+}

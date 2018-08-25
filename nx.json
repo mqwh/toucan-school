@@ -7,5 +7,21 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "excel-school": {
+      "tags": [
+        "app:excel-school"
+      ]
+    },
+    "feature-agenda": {
+      "tags": [
+        "app:excel-school"
+      ]
+    },
+    "common": {
+      "tags": [
+        "lib:common"
+      ]
+    }
+  }
 }
