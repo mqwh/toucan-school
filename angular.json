@@ -120,6 +120,22 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/excel-school-server",
+            "main": "apps/excel-school/src/main.server.ts",
+            "tsConfig": "apps/excel-school/tsconfig.server.json"
+          }
+        },
+        "app-shell": {
+          "builder": "@angular-devkit/build-angular:app-shell",
+          "options": {
+            "browserTarget": "excel-school:build",
+            "serverTarget": "excel-school:server",
+            "route": "app-shell-path"
+          }
         }
       }
     },

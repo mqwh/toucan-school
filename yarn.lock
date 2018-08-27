@@ -2,22 +2,22 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/architect@0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@angular-devkit/architect/download/@angular-devkit/architect-0.7.4.tgz#c6c65bcf88f03a44fc393db822eda7467e43a2b4"
+"@angular-devkit/architect@0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/architect/download/@angular-devkit/architect-0.7.5.tgz#e2d856b671fe8b0615db1efc144a7f75b55fb6e1"
   dependencies:
-    "@angular-devkit/core" "0.7.4"
+    "@angular-devkit/core" "0.7.5"
     rxjs "^6.0.0"
 
-"@angular-devkit/build-angular@~0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@angular-devkit/build-angular/download/@angular-devkit/build-angular-0.7.4.tgz#490c0d7f0a5c303b3c06248d823aa5b89960def1"
+"@angular-devkit/build-angular@~0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/build-angular/download/@angular-devkit/build-angular-0.7.5.tgz#1ae50c1c57e10919fc631da462037e63e19ea543"
   dependencies:
-    "@angular-devkit/architect" "0.7.4"
-    "@angular-devkit/build-optimizer" "0.7.4"
-    "@angular-devkit/build-webpack" "0.7.4"
-    "@angular-devkit/core" "0.7.4"
-    "@ngtools/webpack" "6.1.4"
+    "@angular-devkit/architect" "0.7.5"
+    "@angular-devkit/build-optimizer" "0.7.5"
+    "@angular-devkit/build-webpack" "0.7.5"
+    "@angular-devkit/core" "0.7.5"
+    "@ngtools/webpack" "6.1.5"
     ajv "~6.4.0"
     autoprefixer "^8.4.1"
     circular-dependency-plugin "^5.0.2"
@@ -64,37 +64,37 @@
   optionalDependencies:
     node-sass "^4.9.3"
 
-"@angular-devkit/build-optimizer@0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@angular-devkit/build-optimizer/download/@angular-devkit/build-optimizer-0.7.4.tgz#11c35d339f12218f9c8b718a900325788eb19d42"
+"@angular-devkit/build-optimizer@0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/build-optimizer/download/@angular-devkit/build-optimizer-0.7.5.tgz#ded26831a68b94d3292a8d0036331331e3f27bfe"
   dependencies:
     loader-utils "^1.1.0"
     source-map "^0.5.6"
     typescript "~2.9.1"
     webpack-sources "^1.1.0"
 
-"@angular-devkit/build-webpack@0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@angular-devkit/build-webpack/download/@angular-devkit/build-webpack-0.7.4.tgz#847e3e81d69bb3dbd63b92f400649a1238edb1c7"
+"@angular-devkit/build-webpack@0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/build-webpack/download/@angular-devkit/build-webpack-0.7.5.tgz#94d34d6bfdd7082793a6abea32319684e94a7068"
   dependencies:
-    "@angular-devkit/architect" "0.7.4"
-    "@angular-devkit/core" "0.7.4"
+    "@angular-devkit/architect" "0.7.5"
+    "@angular-devkit/core" "0.7.5"
     rxjs "^6.0.0"
 
-"@angular-devkit/core@0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@angular-devkit/core/download/@angular-devkit/core-0.7.4.tgz#707ac5a8b534b5768c334ff8d35b0ec754938c58"
+"@angular-devkit/core@0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/core/download/@angular-devkit/core-0.7.5.tgz#49f7854ccadf3ddda8d0ea4359543a1cbdc6854d"
   dependencies:
     ajv "~6.4.0"
     chokidar "^2.0.3"
     rxjs "^6.0.0"
     source-map "^0.5.6"
 
-"@angular-devkit/schematics@0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@angular-devkit/schematics/download/@angular-devkit/schematics-0.7.4.tgz#18d7a58ab67acab4b6f404bd65e8765a581307ed"
+"@angular-devkit/schematics@0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/schematics/download/@angular-devkit/schematics-0.7.5.tgz#f46b121f29cb40ad6095285d27a515114a56c5d6"
   dependencies:
-    "@angular-devkit/core" "0.7.4"
+    "@angular-devkit/core" "0.7.5"
     rxjs "^6.0.0"
 
 "@angular/animations@^6.1.4":
@@ -109,15 +109,15 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/cli@~6.1.4":
-  version "6.1.4"
-  resolved "http://registry.npm.taobao.org/@angular/cli/download/@angular/cli-6.1.4.tgz#1ec6d7639e31eaf6247c5146814fd2aa099eb2bb"
+"@angular/cli@~6.1.5":
+  version "6.1.5"
+  resolved "http://registry.npm.taobao.org/@angular/cli/download/@angular/cli-6.1.5.tgz#312c062631285ff06fd07ecde8afe22cdef5a0e1"
   dependencies:
-    "@angular-devkit/architect" "0.7.4"
-    "@angular-devkit/core" "0.7.4"
-    "@angular-devkit/schematics" "0.7.4"
-    "@schematics/angular" "0.7.4"
-    "@schematics/update" "0.7.4"
+    "@angular-devkit/architect" "0.7.5"
+    "@angular-devkit/core" "0.7.5"
+    "@angular-devkit/schematics" "0.7.5"
+    "@schematics/angular" "0.7.5"
+    "@schematics/update" "0.7.5"
     opn "^5.3.0"
     rxjs "^6.0.0"
     semver "^5.1.0"
@@ -157,6 +157,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/http@^6.1.4":
+  version "6.1.4"
+  resolved "http://registry.npm.taobao.org/@angular/http/download/@angular/http-6.1.4.tgz#0ab24a51075daaba60a4241200c44dcfcd87da5e"
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/language-service@^6.1.4":
   version "6.1.4"
   resolved "http://registry.npm.taobao.org/@angular/language-service/download/@angular/language-service-6.1.4.tgz#946a70e1afbf83dbae4c31b64784a5a77ae07e53"
@@ -187,6 +193,14 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/platform-server@^6.1.4":
+  version "6.1.4"
+  resolved "http://registry.npm.taobao.org/@angular/platform-server/download/@angular/platform-server-6.1.4.tgz#df9fb37ad58605159f2aa1f777c6260491858c3f"
+  dependencies:
+    domino "^2.0.1"
+    tslib "^1.9.0"
+    xhr2 "^0.1.4"
+
 "@angular/router@^6.1.4":
   version "6.1.4"
   resolved "http://registry.npm.taobao.org/@angular/router/download/@angular/router-6.1.4.tgz#ec6d7400baea46386e3bbcf3e3acb0135f368fac"
@@ -207,11 +221,11 @@
   version "1.1.8"
   resolved "http://registry.npm.taobao.org/@microsoft/office-js/download/@microsoft/office-js-1.1.8.tgz#3b9133093d5f8164d5c2fa57facfcf528ecdb2d5"
 
-"@ngtools/webpack@6.1.4":
-  version "6.1.4"
-  resolved "http://registry.npm.taobao.org/@ngtools/webpack/download/@ngtools/webpack-6.1.4.tgz#dab670b4f03a88afd07ed15e1b5f27f16c3be3a8"
+"@ngtools/webpack@6.1.5":
+  version "6.1.5"
+  resolved "http://registry.npm.taobao.org/@ngtools/webpack/download/@ngtools/webpack-6.1.5.tgz#134639686eb4519885ed27665babdf80ce098263"
   dependencies:
-    "@angular-devkit/core" "0.7.4"
+    "@angular-devkit/core" "0.7.5"
     rxjs "^6.0.0"
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
@@ -274,20 +288,20 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
-"@schematics/angular@0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@schematics/angular/download/@schematics/angular-0.7.4.tgz#03012ca1fbc161b137dabc26ba04bd31d2ca687e"
+"@schematics/angular@0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@schematics/angular/download/@schematics/angular-0.7.5.tgz#ccb5ce587161b24042195e100be556ae19b3b7f6"
   dependencies:
-    "@angular-devkit/core" "0.7.4"
-    "@angular-devkit/schematics" "0.7.4"
+    "@angular-devkit/core" "0.7.5"
+    "@angular-devkit/schematics" "0.7.5"
     typescript ">=2.6.2 <2.10"
 
-"@schematics/update@0.7.4":
-  version "0.7.4"
-  resolved "http://registry.npm.taobao.org/@schematics/update/download/@schematics/update-0.7.4.tgz#831b77c032a82d7c3dd9f9257bd7be68328de1bb"
+"@schematics/update@0.7.5":
+  version "0.7.5"
+  resolved "http://registry.npm.taobao.org/@schematics/update/download/@schematics/update-0.7.5.tgz#c9cc68c4464ea4e29a2f3a7254172df768c86ac4"
   dependencies:
-    "@angular-devkit/core" "0.7.4"
-    "@angular-devkit/schematics" "0.7.4"
+    "@angular-devkit/core" "0.7.5"
+    "@angular-devkit/schematics" "0.7.5"
     npm-registry-client "^8.5.1"
     rxjs "^6.0.0"
     semver "^5.3.0"
@@ -2217,6 +2231,10 @@ domhandler@^2.3.0:
   resolved "http://registry.npm.taobao.org/domhandler/download/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
   dependencies:
     domelementtype "1"
+
+domino@^2.0.1:
+  version "2.1.0"
+  resolved "http://registry.npm.taobao.org/domino/download/domino-2.1.0.tgz#653ba7d331441113b42e40ba05f24253ec86e02e"
 
 domutils@1.1:
   version "1.1.6"
@@ -8431,6 +8449,10 @@ x-is-string@^0.1.0:
 xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.taobao.org/xdg-basedir/download/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
+
+xhr2@^0.1.4:
+  version "0.1.4"
+  resolved "http://registry.npm.taobao.org/xhr2/download/xhr2-0.1.4.tgz#7f87658847716db5026323812f818cadab387a5f"
 
 xml2js@^0.4.17:
   version "0.4.19"
