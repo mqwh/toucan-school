@@ -1,1 +1,3 @@
-export * from './lib/path-not-found/path-not-found.component';
+export * from './lib/pages';
+
+export * from './lib/utils';

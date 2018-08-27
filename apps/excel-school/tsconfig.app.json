@@ -11,8 +11,8 @@
     "**/*.spec.ts"
   ],
   "include": [
-    "**/*.ts"
-    , "../../libs/feature/agenda/src/index.ts"
+    "**/*.ts",
+    "../../libs/feature/agenda/src/index.ts"
   ],
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
