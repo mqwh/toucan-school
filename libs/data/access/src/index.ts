@@ -1,1 +1,1 @@
-export * from './lib/data-access.module';
+export { MenuService } from './lib/layout/menu.service';
