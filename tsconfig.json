@@ -26,6 +26,15 @@
       ],
       "@toucan/common": [
         "libs/common/src/index.ts"
+      ],
+      "@toucan/data/models": [
+        "libs/data/models/src/index.ts"
+      ],
+      "@toucan/data/access": [
+        "libs/data/access/src/index.ts"
+      ],
+      "@toucan/layout": [
+        "libs/layout/src/index.ts"
       ]
     }
   },

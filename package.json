@@ -43,7 +43,6 @@
     "@angular/platform-browser-dynamic": "^6.1.4",
     "@angular/platform-server": "^6.1.4",
     "@angular/router": "^6.1.4",
-    "@microsoft/office-js": "^1.1.8",
     "@microsoft/office-js-helpers": "^1.0.2",
     "@ngxs/devtools-plugin": "^3.2.0",
     "@ngxs/form-plugin": "^3.2.0",
