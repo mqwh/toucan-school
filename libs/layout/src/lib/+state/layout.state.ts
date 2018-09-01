@@ -1,4 +1,4 @@
-import { Action, State, StateContext } from '@ngxs/store';
+import { Action, Selector, State, StateContext } from '@ngxs/store';
 import { MenuService } from '@toucan/data/access';
 import { map } from 'rxjs/operators';
 
@@ -11,12 +11,12 @@ import {
 
 export interface LayoutStateModel {
   layout: 'sidenav' | 'tabnav';
-  rootNavMenu: FlatNavItem;
+  rootMenu: FlatNavItem;
 }
 
 export const initialLayoutState: LayoutStateModel = {
   layout: 'sidenav',
-  rootNavMenu: { key: 'root' }
+  rootMenu: { key: 'root' }
 };
 
 @State<LayoutStateModel>({
@@ -24,6 +24,11 @@ export const initialLayoutState: LayoutStateModel = {
   defaults: initialLayoutState
 })
 export class LayoutState {
+  @Selector()
+  static menus(state: LayoutStateModel) {
+    return state.rootMenu.children || [];
+  }
+
   constructor(private menuService: MenuService) {}
 
   @Action(LoadNavigationMenu)
@@ -39,6 +44,6 @@ export class LayoutState {
     { patchState }: StateContext<LayoutStateModel>,
     { rootMenu }: LoadNavigationMenuSuccess
   ) {
-    return patchState({ rootNavMenu: rootMenu });
+    return patchState({ rootMenu });
   }
 }

@@ -1,3 +1,19 @@
+<div class="tc-agenda-header">
+  <mat-form-field floatLabel="never">
+    <mat-label>选择需要查看的日期</mat-label>
+    <input matInput
+           [value]="startDate"
+           [matDatepicker]="picker">
+    <mat-datepicker-toggle matSuffix
+                           [for]="picker">
+    </mat-datepicker-toggle>
+    <mat-datepicker #picker
+                    touchUi
+                    [startAt]="startDate">
+    </mat-datepicker>
+  </mat-form-field>
+</div>
+
 <p>
   agenda works!
 </p>

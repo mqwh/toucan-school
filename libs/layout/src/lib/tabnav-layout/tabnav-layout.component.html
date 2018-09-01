@@ -1,0 +1,14 @@
+<nav mat-tab-nav-bar>
+  <a mat-tab-link
+     *ngFor="let link of menus$ | async"
+     [routerLink]="link.url"
+     routerLinkActive
+     #rla="routerLinkActive"
+     [active]="rla.isActive">
+    {{link.label}}
+  </a>
+</nav>
+
+<div class="tc-page-container">
+  <router-outlet></router-outlet>
+</div>
