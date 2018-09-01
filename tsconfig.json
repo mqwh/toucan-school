@@ -35,6 +35,9 @@
       ],
       "@toucan/layout": [
         "libs/layout/src/index.ts"
+      ],
+      "@toucan/feature/settings": [
+        "libs/feature/settings/src/index.ts"
       ]
     }
   },

@@ -278,6 +278,34 @@
           }
         }
       }
+    },
+    "feature-settings": {
+      "root": "libs/feature/settings",
+      "sourceRoot": "libs/feature/settings/src",
+      "projectType": "library",
+      "prefix": "toucan",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/feature/settings/src/test.ts",
+            "tsConfig": "libs/feature/settings/tsconfig.spec.json",
+            "karmaConfig": "libs/feature/settings/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/feature/settings/tsconfig.lib.json",
+              "libs/feature/settings/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

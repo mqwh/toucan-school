@@ -39,6 +39,11 @@
       "tags": [
         "lib:layout"
       ]
+    },
+    "feature-settings": {
+      "tags": [
+        "app:excel-school"
+      ]
     }
   }
 }
