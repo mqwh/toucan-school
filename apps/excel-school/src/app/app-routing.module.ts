@@ -8,6 +8,10 @@ const routes = [
     path: 'agenda',
     loadChildren: '@toucan/feature/agenda#FeatureAgendaModule'
   },
+  {
+    path: 'settings',
+    loadChildren: '@toucan/feature/settings#FeatureSettingsModule'
+  },
   { path: '**', component: PathNotFoundComponent }
 ];
 

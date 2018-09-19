@@ -44,6 +44,11 @@
       "tags": [
         "app:excel-school"
       ]
+    },
+    "config": {
+      "tags": [
+        "lib:common"
+      ]
     }
   }
 }

@@ -38,6 +38,9 @@
       ],
       "@toucan/feature/settings": [
         "libs/feature/settings/src/index.ts"
+      ],
+      "@toucan/config": [
+        "libs/config/src/index.ts"
       ]
     }
   },
