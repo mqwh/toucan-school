@@ -5,7 +5,7 @@ import { zipObject } from '@toucan/common';
   providedIn: 'root'
 })
 export class ExcelTableService {
-  async readTableData(tableName: string) {
+  async read<T>(tableName: string): Promise<T[]> {
     try {
       return await Excel.run(async context => {
         const table = context.workbook.tables.getItem(tableName);
@@ -15,8 +15,9 @@ export class ExcelTableService {
 
         return body.values.map(row => zipObject(headers.values[0], row));
       });
-    } catch (error) {
-      console.error(error);
+    } catch (reason) {
+      console.error(reason);
+      throw reason;
     }
   }
 }
